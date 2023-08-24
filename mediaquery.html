@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+          height: 200px;
+          background-color: red;  
+        }
+
+        /* .container{
+            background-color: blue;
+        }
+        .container{
+            background-color: navajowhite;
+        } */
+
+
+
+        /* media query while using min width 
+
+
+        @media screen and (min-width: 700px) {
+        .container{
+            background-color: blue;
+        }
+        @media screen and (min-width: 800px) {
+        .container{
+            background-color: green;
+        }
+        @media screen and (min-width: 900px) {
+        .container{
+            background-color: yellow;
+        }
+
+
+
+        /* jevabe ace same dite hote and er por space na dileo kaj kore na!
+        @media screen and( min-width: 800px) {
+        .container{
+            background-color: blue;
+        } 
+
+    }*/
+
+
+    /* media query while using max width
+
+    @media screen and (max-width:800px) {
+       .container{
+        background-color: greenyellow;
+       }
+    @media screen and (max-width:600px) {
+       .container{
+        background-color: yellow;
+       }
+    @media screen and (max-width:400px) {
+       .container{
+        background-color: blue;
+       }
+    }*/
+
+
+
+
+    /* range */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .container{
+            background-color: chocolate;
+        }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 900px) {
+        .container{
+            background-color: green;
+        }
+    }
+        @media screen and (min-width:901px) {
+            .container{
+                background-color: violet;
+            }
+        }
+
+    /* @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .container{
+            background-color: black;
+        }
+    } */
+
+    </style>
+
+    
+</head>
+
+<body>
+    <div class="container">S</div>
+    
+</body>
+</html>
