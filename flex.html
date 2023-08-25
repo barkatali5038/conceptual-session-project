@@ -4,9 +4,64 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        
+        <style>
+            .flex-container{
+                border: 3px solid red;
+                padding: 5px;
+
+
+                display: flex;
+                /* justify-content: center; */
+                /* flex-direction: row; */
+                height: 400px;
+                /* align-items: stretch; */
+                /* align-items: center; */
+
+
+                /* flex-direction: column;
+                justify-content: space-around;
+                align-items: center; */
+                
+                
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                /* align-content: space-around; */
+                align-content: center;
+            }
+            .flex-item{
+                color: aquamarine;
+                width: 200px;
+                /* min-width: 200px; */
+                 /* flex-basis: 200px;   */
+                 /* flex basis just like width wraping mode*/
+                height: 50px;
+
+            }
+            .one{
+                background-color: blue;
+            }
+            .two{
+                background-color: rgb(128, 128, 163);
+            }
+            .three{
+                background-color: rgb(195, 135, 23);
+            }
+            .four{
+                background-color: rgb(24, 155, 72);
+            }
+            .five{
+                background-color: rgb(197, 10, 26);
+            }
+        </style>
     </head>
     <body>
-        
+        <div class="flex-container">
+            <div class="flex-item one">1</div>
+            <div class="flex-item two">2</div>
+            <div class="flex-item three">3</div>
+            <div class="flex-item four">4</div>
+            <div class="flex-item five">5</div>
+        </div>
     </body>
-    </html>
+    </html> 

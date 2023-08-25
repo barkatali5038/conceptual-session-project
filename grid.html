@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            /* height: 100px; */
+            /* height: 500px; */
+            /* height: 50vh; */
+            border: 2px solid red;
+
+            height: 400px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 100px);
+            /* align-items: center;
+            justify-items: center; */
+
+
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: 1fr 2fr 3fr 4fr; */
+            /* grid-template-columns: repeat(4, 1fr); */
+            
+            /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+            /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+
+            /* grid-template-rows: 200px; */
+            /* grid-template-rows: repeat(3, 200px); */
+            /* grid-template-rows: 1fr 1fr 1fr; */
+            
+            /* grid-template-columns: 50% 50% 50%; */
+            /* grid-template-columns: 33% 33% 33%; */
+           
+            padding: 5px;
+            /* grid-auto-rows: 50px; */
+            /* grid-template-rows: 100px 100px 100px;
+            
+            /*  grid-template-columns: 100px 100px 100px 100px; */
+            
+            /* justify-content: center; */
+            /* align-content: center; */
+           
+            /* grid-auto-rows: 50px;
+            grid-auto-columns: 50px; */
+        }
+        .grid-item{
+            /* width: 50%;
+            height: 50%; */
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .one{
+                background-color: blue;
+                /* justify-self: center;
+                align-self: center; */
+                /* width: 50%;
+                height: 50%; */
+
+                grid-column: 1/4;
+                /* grid-column: 1/span 4; */
+            }
+            .two{
+                background-color: rgb(128, 128, 163);
+                /* justify-self: center;
+                align-self: center; */
+                /* width: 50%;
+                height: 50%; */
+
+                grid-column: 2/4;
+                /* grid-row: 2/4; */
+            }
+            .three{
+                background-color: rgb(195, 135, 23);
+            }
+            .four{
+                background-color: rgb(24, 155, 72);
+            }
+            .five{
+                background-color: rgb(72, 5, 120);
+            }
+            .six{
+                background-color: rgb(165, 13, 114);
+            }
+            .seven{
+                background-color: rgb(116, 216, 142);
+            }
+            .eight{
+                background-color: rgb(188, 206, 72);
+            }
+            .nine{
+                background-color: rgb(85, 5, 101);
+            }
+    </style>
+
+    
+<body>
+    <div class="grid-container">
+        <div class="grid-item one">1</div>
+        <div class="grid-item two">2</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item four">4</div>
+        <div class="grid-item five">5</div>
+        <!-- <div class="grid-item six">6</div>
+        <div class="grid-item seven">7</div>
+        <div class="grid-item eight">8</div>
+        <div class="grid-item nine">9</div> -->
+
+        <!-- <div class="grid-item nine">10</div>
+        <div class="grid-item nine">20</div>
+        <div class="grid-item nine">30</div>
+        <div class="grid-item nine">40</div>
+        <div class="grid-item nine">40</div>
+        <div class="grid-item nine">40</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item three">3</div> -->
+    </div>
+</body>
+</html>
